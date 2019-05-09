@@ -12,8 +12,8 @@ spring:
     show-sql: true
 server:
   port: 9999
-  servlet:
-    context-path: /uaa-jwt
+#  servlet:
+#    context-path: /uaa-jwt
 
 eureka:
   client:
