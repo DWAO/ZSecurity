@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ZSecuriy.iml" filepath="$PROJECT_DIR$/ZSecuriy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ZServer/ZServer.iml" filepath="$PROJECT_DIR$/ZServer/ZServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zuaa/ZUAA.iml" filepath="$PROJECT_DIR$/zuaa/ZUAA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zclient/zclient.iml" filepath="$PROJECT_DIR$/zclient/zclient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zuaa-jwt/zuaa-jwt.iml" filepath="$PROJECT_DIR$/zuaa-jwt/zuaa-jwt.iml" />
+    </modules>
+  </component>
+</project>

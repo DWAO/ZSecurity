@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="zclient" />
+        <module name="ZSecuriy" />
+        <module name="ZServer" />
+        <module name="ZUAA" />
+        <module name="zuaa-jwt" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="zclient" target="1.8" />
+      <module name="ZSecuriy" target="1.8" />
+      <module name="ZServer" target="1.8" />
+      <module name="ZUAA" target="1.8" />
+      <module name="zuaa-jwt" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

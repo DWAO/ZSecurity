@@ -1,0 +1,25 @@
+spring:
+  application:
+    name: service-client
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/spring-security?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8
+    username: root
+    password: jl999
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+server:
+  port: 8888
+  servlet:
+    context-path: /uaa-client
+
+feign:
+  hystrix:
+    enabled: true
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
